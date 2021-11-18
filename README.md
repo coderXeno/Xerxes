@@ -41,36 +41,39 @@ Xerxes is a discord bot written on the discord.js framework and a lot of command
 
 ## About
 
-Calypso is an open source, fully customizable Discord bot that is constantly growing. She comes packaged with a variety of commands and a multitude of settings that can be tailored to your server's specific needs. Her codebase also serves as a base framework to easily create Discord bots of all kinds. You can invite her to your Discord server using [this](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599) link! Also, you can join the official [Calypso Support Server](https://discord.gg/pnYVdut) for all questions, suggestions, and assistance!
+Xerxes is a discord bot that has got lots of features and interesting commands that are useful for having fun and moderating 
+your server at the same time. Feel free to take your time and read through the code that I've posted in the repository.
 
-If you liked this repository, feel free to leave a star ⭐ to help promote Calypso!
+However, now that the formal introductions to Xerxes are done, and if you are still reading this Readme file, then I would like
+walk you through a detailed journey of how I developed Xerxes and what my mindset was when solving certain challenges that came up. 
+There were a lot of problems and challenges that i had tosolve along the way, and believe me, they were super fun indeed!
 
-## Features
+If you are a beginner and want to learn to build discord bots in discord.js framework, I believe the 
+following journey that Im gonna describe in detail will be quite helpful for you.
 
-**110+** commands and counting across **8** different categories!
+So lets get into the details of the development journey!
 
-  * **Administration:** A huge amount of settings to customize with commands like `setprefix`, `setwelcomemessage`, and `setverificationrole`
-  * **Moderation:** Commands such as `kick`, `ban`, and `mute` to assist your moderator staff
-  * **Fun & Games:** Tons of fun commands like `trivia`, `meme`, `emojify`, and a variety of animal pic commands like `cat`, `dog`, and `fox`
-  * **Information:** Commands like `userinfo` and `serverinfo` for general utility
-  * **Points:** A unique points system with a rotating winner that has commands like `leaderboard`, `givepoints`, and `crown`
-  * **Color:** Change your Discord color with commands like `color`, `createcolor` and `randomcolor`
-  * **Owner:** Owner specific commands like `eval` and `servers`
-  * **Miscellaneous:** All other commands like `feedback` and `bugreport`
+I would like to start with the fact that before I built Xerxes, I built another discord bot, Xeno using the discord.py framework,
+which unfortunately got deprecated soon after. So I started to look for another way to build a better and smoother running discord 
+bot. Then, I came across discord.js and started reading up its <a href="https://discord.js.org/#/docs/main/stable/general/welcome">documentation</a>.
+Well, lets say it took me quite some time to get myself fully accustomed with all the new concepts and hard Javascript concepts I had
+to come across. One of these tough concepts was Asynchrounous Javascript Programming. But I took my time and learnt the things bit by bit.
 
-Calypso also comes packed with a variety of features, such as:
+Next, I started building the bot itself. The first thing to understand is that every bot needs to have a starting file that's gonna be 
+specified in the ```package.json``` after you do an npm init. In my case, I've named it index.js, but you can name it whatever you want, 
+but make sure to change the starting point in the package.json file. Next, in order to store the bot's secret token we need to create a 
+config.json file, that's gonna contain all the bot's secret information including the bot token, the api keys(if any), the srv for the database
+(Im using Mongo) and so on. Then, we connect that confg.json file to our main index.js file and import all the necessary information 
+and store them in variabled or access them directly(Your choice, really).
 
-  * **Auto role** assignment
-  * Server **verification** via reactions
-  * **Welcome messages** and **farewell messages**
-  * **Logging** for mod commands and various events
-  * **Moderator only** channels
-  * A **starboard**
-  * **Auto kicking** when a warn limit is reached
-  * Auto **random colors** when members join
-  * Per **command disabling**
-  * And much more! There are over **30+** settings to tweak!
+The main problem with Xeno, was that I wrote down all the bot's commands in the single starter file. Imagine how messy that was!
+So another of my missions for building Xerxes was restructuring the code and cleaning up the mess I made when building Xeno.
+Here, the first really tough challenge presented itself. I needed commands but i needed them in separate files and folders so as to highly
+improve readability and maintanability.(Also debugging is much easier 😅.) To solve this problem, I came up with the solution of making a Command class,
+defined properties that commands should have and exporting it with ``module.exports``. Then for every new command I defined i imported the Command class 
+and defined the command as a new object of that class, also exporting the command with ``module.exports``.
 
+If you liked this repository, please to leave a star ⭐! It helps me keep bringing out more and more new features.
 
 ## Installation
 
