@@ -10,13 +10,13 @@ Xerxes is a discord bot written on the discord.js framework and a lot of command
 </h1>
 
 <h3 align=center>A fun discord bot built with <a href=https://github.com/discordjs/discord.js>discord.js</a> framework.</h3>
-<p>Its super fun to use, has a lot of nice features and commands 
+<p align="center">Its super fun to use, has a lot of nice features and commands 
 
 
 <div align=center>
 
   <a href="https://github.com/discordjs">
-    <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
+    <img src="https://img.shields.io/badge/discord.js-v13.0-blue.svg?logo=npm" alt="shield.png">
   </a>
 
   <a href="https://github.com/coderXeno/Xerxes/blob/main/LICENSE">
