@@ -1,29 +1,26 @@
 # Xerxes
-A discord bot written on discord.js framework and a lot of commands. I constantly develop new features and add them.
+Xerxes is a discord bot written on the discord.js framework and a lot of commands. I constantly develop new features and add them.
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/sabattle/CalypsoBot"><img src="./data/images/Calypso_Title.png"></a>
+  <a href="https://github.com/coderXeno/Xerxes"></a>
   <br>
-  Calypso Discord Bot
+  X E R X E S
   <br>
 </h1>
 
-<h3 align=center>A fully customizable bot built with <a href=https://github.com/discordjs/discord.js>discord.js</a></h3>
+<h3 align=center>A fun discord bot built with <a href=https://github.com/discordjs/discord.js>discord.js</a> framework.</h3>
+<p>Its super fun to use, has a lot of nice features and commands 
 
 
 <div align=center>
-
-  <a href="https://discord.gg/pnYVdut">
-    <img src="https://discordapp.com/api/guilds/709992782252474429/widget.png?style=shield" alt="shield.png">
-  </a>
 
   <a href="https://github.com/discordjs">
     <img src="https://img.shields.io/badge/discord.js-v12.3.1-blue.svg?logo=npm" alt="shield.png">
   </a>
 
-  <a href="https://github.com/sabattle/CalypsoBot/blob/develop/LICENSE">
-    <img src="https://img.shields.io/badge/license-GNU%20GPL%20v3-green" alt="shield.png">
+  <a href="https://github.com/coderXeno/Xerxes/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MITv3-green" alt="shield.png">
   </a>
 
 </div>
