@@ -25,20 +25,6 @@ Xerxes is a discord bot written on the discord.js framework and a lot of command
 
 </div>
 
-<p align="center">
-  <a href="#about">About</a>
-  •
-  <a href="#features">Features</a>
-  •
-  <a href="#installation">Installation</a>
-  •
-  <a href="#setting-up">Setting Up</a>
-  •
-  <a href="#license">License</a>
-  •
-  <a href="#credits">Credits</a>
-</p>
-
 ## About
 
 Xerxes is a discord bot that has got lots of features and interesting commands that are useful for having fun and moderating 
